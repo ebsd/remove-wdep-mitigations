@@ -8,7 +8,7 @@ Run remove-wdep-mitigations.ps1.
 PowerShell.exe -ExecutionPolicy Bypass -File remove-wdep-mitigations.ps1
 ```
 
-2. Import default mitigations
+2. Import / restore default mitigations
 
 ```
 Set-ProcessMitigation -PolicyFilePath default_mitigations.xml
