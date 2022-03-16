@@ -12,6 +12,7 @@ PowerShell.exe -ExecutionPolicy Bypass -File remove-wdep-mitigations.ps1
 
 ```
 Set-ProcessMitigation -PolicyFilePath default_mitigations.xml
+Set-ProcessMitigation -System -Reset
 ```
 
 **Source**
