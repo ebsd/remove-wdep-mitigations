@@ -1,0 +1,56 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <root>
+    <SystemConfig/>
+    <AppConfig Executable="ExtExport.exe">
+       <ASLR OverrideForceRelocateImages="false" ForceRelocateImages="false" Enable="true"/>
+    </AppConfig>
+    <AppConfig Executable="ie4uinit.exe">
+      <ASLR OverrideForceRelocateImages="false" ForceRelocateImages="false" Enable="true"/>
+    </AppConfig>
+    <AppConfig Executable="ieinstal.exe">
+   <ASLR OverrideForceRelocateImages="false" ForceRelocateImages="false" Enable="true"/>
+    </AppConfig>
+    <AppConfig Executable="ielowutil.exe">
+      <ASLR OverrideForceRelocateImages="false" ForceRelocateImages="false" Enable="true"/>
+    </AppConfig>
+   <AppConfig Executable="ieUnatt.exe">
+      <ASLR OverrideForceRelocateImages="false" ForceRelocateImages="false" Enable="true"/>
+    </AppConfig>
+   <AppConfig Executable="iexplore.exe">
+      <ASLR OverrideForceRelocateImages="false" ForceRelocateImages="false" Enable="true"/>
+    </AppConfig>
+   <AppConfig Executable="mscorsvw.exe">
+       <ExtensionPoints OverrideExtensionPoint="false" DisableExtensionPoints="true"/>
+    </AppConfig>
+    <AppConfig Executable="msfeedssync.exe">
+       <ASLR OverrideForceRelocateImages="false" ForceRelocateImages="false" Enable="true"/>
+    </AppConfig>
+    <AppConfig Executable="mshta.exe">
+       <ASLR OverrideForceRelocateImages="false" ForceRelocateImages="false" Enable="true"/>
+    </AppConfig>
+    <AppConfig Executable="ngen.exe">
+       <ExtensionPoints OverrideExtensionPoint="false" DisableExtensionPoints="true"/>
+    </AppConfig>
+    <AppConfig Executable="ngentask.exe">
+       <ExtensionPoints OverrideExtensionPoint="false" DisableExtensionPoints="true"/>
+    </AppConfig>
+    <AppConfig Executable="PresentationHost.exe">
+       <DEP Enable="true" OverrideDEP="false" EmulateAtlThunks="false"/>
+       <ASLR OverrideForceRelocateImages="false" ForceRelocateImages="false" Enable="true" OverrideBottomUp="false" HighEntropy="true" BottomUp="true"/>
+       <SEHOP Enable="true" OverrideSEHOP="false" TelemetryOnly="false"/>
+       <Heap OverrideHeap="false" TerminateOnError="true"/>
+    </AppConfig>
+    <AppConfig Executable="PrintDialog.exe">
+       <ExtensionPoints OverrideExtensionPoint="false" DisableExtensionPoints="true"/>
+    </AppConfig>
+    <AppConfig Executable="PrintIsolationHost.exe"/>
+    <AppConfig Executable="runtimebroker.exe">
+       <ExtensionPoints OverrideExtensionPoint="false" DisableExtensionPoints="true"/>
+    </AppConfig>
+        <AppConfig Executable="splwow64.exe"/>
+    <AppConfig Executable="spoolsv.exe"/>
+    <AppConfig Executable="svchost.exe"/>
+    <AppConfig Executable="SystemSettings.exe">
+       <ExtensionPoints OverrideExtensionPoint="false" DisableExtensionPoints="true"/>
+    </AppConfig>
+</root>

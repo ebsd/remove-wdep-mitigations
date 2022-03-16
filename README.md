@@ -1,8 +1,19 @@
-# Remove Windows Defender Exploit Protection mitigations
+# Troubleshoot exploit protection mitigations
 
-2 functions :
+1. Remove Windows Defender Exploit Protection mitigations
+
+Run remove-wdep-mitigations.ps1.
 
 ```
-Remove-All-ProcessMitigations
-Remove-All-SystemMitigations
+PowerShell.exe -ExecutionPolicy Bypass -File remove-wdep-mitigations.ps1
 ```
+
+2. Import default mitigations
+
+```
+Set-ProcessMitigation -PolicyFilePath default_mitigations.xml
+```
+
+**Source**
+
+https://github.com/MicrosoftDocs/microsoft-365-docs/blob/public/microsoft-365/security/defender-endpoint/troubleshoot-exploit-protection-mitigations.md
